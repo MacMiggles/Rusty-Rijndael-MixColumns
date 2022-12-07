@@ -45,7 +45,7 @@ fn mix_column(column: &mut [u8]) {
 }
 
 fn main() {
-    println!("Enter 4 bytes in hex (Reminder: 0x is not needed and must be UPPERCASE)");
+    println!("Enter 4 bytes in hex (Reminder: 0x is not needed and input must be UPPERCASE)");
     let mut column = [0u8; 4];
     for i in 0..4 {
         let mut input = String::new();
